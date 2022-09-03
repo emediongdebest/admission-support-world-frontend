@@ -3,7 +3,7 @@ import TeacherSideBar from './TeacherSideBar'
  import {useEffect, useState} from 'react'
  import axios from 'axios'
 
-const baseUrl='https://admissionsupportworld.herokuapp.com/api'
+const baseUrl='https://staff.admissionsupportworldwide.co.uk/api'
 function TeacherCourses(){
   const [courseData, setCourseData]=useState([]);
   const teacherId=localStorage.getItem('teacherId')

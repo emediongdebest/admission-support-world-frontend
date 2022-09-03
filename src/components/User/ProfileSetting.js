@@ -5,7 +5,7 @@ import axios from "axios";
 import Login from "./Login";
 import Swal from 'sweetalert2'
 
-const baseUrl='https://admissionsupportworld.herokuapp.com/api'
+const baseUrl='https://staff.admissionsupportworldwide.co.uk/api'
 function ProfileSetting(){
   const [studentData,setstudentData] = useState({
     'full_name':'',

@@ -6,7 +6,7 @@ import axios from 'axios'
 import {Carousel, Card, Button, Placeholder, Col, Row} from 'react-bootstrap'
 import Swal from "sweetalert2";
 
-const baseUrl='https://admissionsupportworld.herokuapp.com/api'
+const baseUrl='https://staff.admissionsupportworldwide.co.uk/api'
 function CourseDetail() {
   const [chapterData, setchapterData]=useState([]);
   const [teacherData, setteacherData]=useState([]);

@@ -3,7 +3,7 @@ import {useParams} from 'react-router-dom'
 import {useEffect, useState} from 'react'
 import axios from 'axios'
 
-const baseUrl='https://admissionsupportworld.herokuapp.com/api'
+const baseUrl='https://staff.admissionsupportworldwide.co.uk/api'
 function FAQ() {
   const [faqData, setfaqData]=useState([]);
   const {category_slug}=useParams();

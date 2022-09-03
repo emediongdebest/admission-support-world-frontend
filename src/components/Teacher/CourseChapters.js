@@ -4,7 +4,7 @@ import {useEffect, useState} from 'react'
 import axios from 'axios'
 import Swal from 'sweetalert2'
 
-const baseUrl='https://admissionsupportworld.herokuapp.com/api'
+const baseUrl='https://staff.admissionsupportworldwide.co.uk/api'
 function CourseChapters() {
   const [chapterData, setchapterData]=useState([]);
   const [totalResult, settotalResult]=useState(0);

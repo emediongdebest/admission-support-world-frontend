@@ -3,7 +3,7 @@ import React from 'react'
 import {useEffect, useState} from 'react'
 import axios from "axios";
 
-const baseUrl='https://admissionsupportworld.herokuapp.com/api/student/';
+const baseUrl='https://staff.admissionsupportworldwide.co.uk/api/student/';
 function Register() {
   const [studentData,setstudentData] = useState({
     'full_name':'',

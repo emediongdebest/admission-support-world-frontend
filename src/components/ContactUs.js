@@ -5,7 +5,7 @@ import axios from "axios";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocation, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 
-const baseUrl='https://admissionsupportworld.herokuapp.com/api/contact/';
+const baseUrl='https://staff.admissionsupportworldwide.co.uk/api/contact/';
 function ContactUs() {
   const [ContactData,setContactData] = useState({
     'full_name':'',

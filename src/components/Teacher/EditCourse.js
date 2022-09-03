@@ -5,7 +5,7 @@ import axios from "axios";
 import TeacherLogin from "./TeacherLogin";
 import Swal from 'sweetalert2'
 
-const baseUrl='https://admissionsupportworld.herokuapp.com/api'
+const baseUrl='https://staff.admissionsupportworldwide.co.uk/api'
 function EditCourse(){
 
   const [cats,setCats] = useState([]);

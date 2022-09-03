@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react'
 import axios from "axios";
 import { Link, useParams } from 'react-router-dom';
 
-const baseUrl='https://admissionsupportworld.herokuapp.com/api';
+const baseUrl='https://staff.admissionsupportworldwide.co.uk/api';
 function ForgetChangePassword() {
   const [teacherData, setteacherData]=useState({
     password:'',
