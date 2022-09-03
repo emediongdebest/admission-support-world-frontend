@@ -33,7 +33,7 @@ function AllCourses() {
   };
   return (
     <section className='all-courses'>
-      <h1 className='heading-title'>Latest Universities</h1>
+      <h1 className='heading-title'>Universities</h1>
       
       <div className='box-container'>
         {courseData && courseData.map((course, index)=>
@@ -43,7 +43,7 @@ function AllCourses() {
             </div>
             <div class="content">
               <h3>{course.title}</h3>
-              <p>{course.type} is a good a university to study {course.title}</p>
+              {/* <p>{course.title} is a good university to study any of </p> */}
               <a href={course.university} className='btn'>Learn More</a>
               {/* <Link to={"/detail/"+course.id} className='btn'>{course.university}</Link> */}
             </div>

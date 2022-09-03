@@ -574,9 +574,14 @@ section {
   padding: 2rem;
 }
 
-.staff-profile .box-container .box h3 {
+.staff-profile .box-container .box h1 {
   font-size: 2.5rem;
   color: var(--black);
+}
+
+.staff-profile .box-container .box h3 {
+  font-size: 1.7rem;
+  padding: 1rem 0;
 }
 
 .staff-profile .box-container .box p {

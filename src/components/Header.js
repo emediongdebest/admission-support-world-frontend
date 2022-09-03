@@ -48,7 +48,7 @@ function Header() {
           {studentLoginStatus!=='true' &&
             <>
               <Link to="/user-register">register</Link>
-              <Link to="/user-login">login</Link>
+              <Link to="/user-login">student login</Link>
             </>
           }
           {studentLoginStatus==='true' &&

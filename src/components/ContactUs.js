@@ -83,6 +83,7 @@ function ContactUs() {
         <div className='box-container'>
 
           <div className='box'>
+            <h1>United Kingdom</h1>
             <h3>Frank Ukofia</h3>
             <p>124 City Road,
               London.
@@ -93,6 +94,7 @@ function ContactUs() {
           </div>
 
           <div className='box'>
+            <h1>Abuja, Nigeria</h1>
             <h3>Erhlton Udosen</h3>
             <p>Suite 2, First Floor, House 797.
               (Opposite White House)
@@ -102,10 +104,11 @@ function ContactUs() {
           </div>
 
           <div className='box'>
+            <h1>Lagos, Nigeria</h1>
             <h3>Ruth Eduok</h3>
-            <p>71 Itire Road (by Obele)
-              Ogunlana Drive Junction
-              Surulere, Lagos</p>
+            <p>10 Udi street, 
+              Osborne estate, 
+              Ikoyi, Lagos state</p>
             <p>Tel: +234 7036922221</p>
           </div>
 
