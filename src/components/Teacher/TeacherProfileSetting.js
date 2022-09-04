@@ -151,7 +151,6 @@ function TeacherProfileSetting(){
             <label for="inputPassword" class="col-sm-2 col-form-label">Skills</label>
             <div class="col-sm-10">
             <textarea value={teacherData.skills} onChange={handleChange} name="skills"  class="form-control"></textarea>
-            <div id="emailHelp" class="form-text">php, python</div>
             </div>
         </div>
 
@@ -159,7 +158,6 @@ function TeacherProfileSetting(){
             <label for="inputPassword" class="col-sm-2 col-form-label">Mobile no</label>
             <div class="col-sm-10">
             <textarea value={teacherData.mobile_no} onChange={handleChange} name="mobile_no"  class="form-control"></textarea>
-            <div id="emailHelp" class="form-text">php, python</div>
             </div>
         </div>
 

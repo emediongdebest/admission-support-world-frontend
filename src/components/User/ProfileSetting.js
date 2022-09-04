@@ -136,7 +136,7 @@ function ProfileSetting(){
         </aside>
         <div className='col-md-9'>
         <div className="card">
-          <h5 className="card-header">Profile Setting</h5>
+          <h5 className="card-header">Document Upload</h5>
           <div className="card-body">
                     
           <div class="mb-3 row">
@@ -154,18 +154,19 @@ function ProfileSetting(){
           </div>
 
           <div className="mb-3 row">
-            <label for="file" class="col-sm-2 col-form-label">Profile Image</label>
+            <label for="file" class="col-sm-2 col-form-label">Passport</label>
             <div class="col-sm-10">
               <input type="file" onChange={handleFileChange} name='p_img'
                 className="form-control" id="video" />
                 {studentData.profile_img &&
                   <p className="mt-2"><img src={studentData.profile_img} width="300" alt={studentData.full_name} /></p>
                 }
+                <div id="emailHelp" class="form-text">Upload only jpeg</div>
             </div>
           </div>
 
           <div className="mb-3 row">
-            <label for="file" class="col-sm-2 col-form-label">Academic Level</label>
+            <label for="file" class="col-sm-2 col-form-label">Academic Transcript</label>
             <div class="col-sm-10">
               <input type="file" onChange={handleFileChange} name='academics'
                 className="form-control" id="video" />
@@ -176,13 +177,14 @@ function ProfileSetting(){
           </div>
 
           <div className="mb-3 row">
-            <label for="file" class="col-sm-2 col-form-label">Academic</label>
+            <label for="file" class="col-sm-2 col-form-label">Certificate of Graduation</label>
             <div class="col-sm-10">
               <input type="file" onChange={handleFileChange} name='aca'
                 className="form-control" id="video" />
               {studentData.academic &&
                 <p className="mt-2"><iframe src={studentData.academic}/></p>
               }
+              <div id="emailHelp" class="form-text">WAEC/NCEO/GCE/Bachelors Degree/Masters Degree/Others</div>
             </div>
           </div>
 
@@ -195,13 +197,14 @@ function ProfileSetting(){
           </div>
 
           <div className="mb-3 row">
-            <label for="file" class="col-sm-2 col-form-label">English Language</label>
+            <label for="file" class="col-sm-2 col-form-label">Certificate of English Proficiency</label>
             <div class="col-sm-10">
               <input type="file" onChange={handleFileChange} name='english'
               className="form-control" id="video" />
               {studentData.english_language &&
                 <p className="mt-2"><iframe src={studentData.english_language}></iframe></p>
               }
+              <div id="emailHelp" class="form-text">IELTS/TOEFL/PTE Test</div>
             </div>
           </div>
 
@@ -220,7 +223,6 @@ function ProfileSetting(){
             <label for="inputPassword" class="col-sm-2 col-form-label">Username</label>
             <div class="col-sm-10">
               <input type="text" value={studentData.username} onChange={handleChange} name="username"  class="form-control"></input>
-              <div id="emailHelp" class="form-text">php, python</div>
             </div>
           </div>
 
@@ -228,7 +230,7 @@ function ProfileSetting(){
             <label for="inputPassword" class="col-sm-2 col-form-label">Interested Categories</label>
             <div class="col-sm-10">
               <textarea value={studentData.interested_categories} onChange={handleChange} name="interested_categories"  class="form-control"></textarea>
-              <div id="emailHelp" class="form-text">Engineering, Science</div>
+              <div id="emailHelp" class="form-text">Engineering, Art, Science</div>
             </div>
           </div>
 

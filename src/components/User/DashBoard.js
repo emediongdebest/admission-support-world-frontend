@@ -25,10 +25,10 @@ function DashBoard(){
         </aside>
         <div className='col-md-9'>
         <div className="card">
-          <div className="list-group list-group-flush">
+          {/* <div className="list-group list-group-flush">
             <li className="list-group-item list-group-item-action">Enrollled Courses</li>
             <Link to="/my-courses" className="list-group-item list-group-item-action">{dashboardData.enrolled_courses}</Link>
-          </div>
+          </div> */}
         </div>
         </div>
       </div>

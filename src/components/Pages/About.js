@@ -19,7 +19,6 @@ function About() {
 
         <div class="content">
           <h3>Why Choose Us</h3>
-          <p>We are life changing international education consultant and university admission experts.</p>
           <p>Our services are free to students.</p>
           <p>We support and guide students seeking to gain admission into colleges, universities and other higher institutions in the United Kingdom, the European Union, United States of America, Canada, Australia and other parts of the world.</p>
           <p>We offer guidance on appropriate courses to enable career progression, advise on the most suitable universities, based on students’ academic strengths, interests and financial capability. Our guidance empowers students to make informed decisions.</p>

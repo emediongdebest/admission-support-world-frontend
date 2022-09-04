@@ -26,8 +26,8 @@ function Footer() {
               <h3>Extra Links</h3>
               <Link to='/faq'><FontAwesomeIcon icon={faAngleRight} /> frequently asked questions</Link>
               <Link to='/about'><FontAwesomeIcon icon={faAngleRight} /> about us</Link>
-              <Link to='/li'><FontAwesomeIcon icon={faAngleRight} /> privacy policy</Link>
-              <Link to='/tandc'><FontAwesomeIcon icon={faAngleRight} /> terms of use</Link>
+              {/* <Link to='/li'><FontAwesomeIcon icon={faAngleRight} /> privacy policy</Link>
+              <Link to='/tandc'><FontAwesomeIcon icon={faAngleRight} /> terms of use</Link> */}
           </div>
 
           <div className="box">
@@ -48,7 +48,7 @@ function Footer() {
 
       <div className="copyright">
         Copyright 2022 by ASW. All Rights Reserved.
-        <p>Developer: +234 808 9505 062</p>
+        <p>Developer : +234 808 9505 062</p>
       </div>
 
     </section>
