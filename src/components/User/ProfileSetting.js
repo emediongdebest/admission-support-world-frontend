@@ -184,7 +184,7 @@ function ProfileSetting(){
               {studentData.academic &&
                 <p className="mt-2"><iframe src={studentData.academic}/></p>
               }
-              <div id="emailHelp" class="form-text">WAEC/NCEO/GCE/Bachelors Degree/Masters Degree/Others</div>
+              <div id="emailHelp" class="form-text">WAEC/NECO/GCE/Bachelors Degree/Masters Degree/Others</div>
             </div>
           </div>
 
