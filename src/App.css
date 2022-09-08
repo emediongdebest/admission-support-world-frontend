@@ -87,7 +87,7 @@ section {
 }
 
 .header .logo {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: var(--black);
   text-transform: uppercase;
 }
@@ -99,7 +99,7 @@ section {
 }
 
 .header .navbar a {
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-left: 1.5rem;
   color: var(--black);
 }
@@ -124,13 +124,13 @@ section {
 }
 
 .header .search-form input {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: var(--black);
 }
 
 .header .search-form button {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.7rem;
   background: none;
   color: var(--black);
   padding: 0;
@@ -186,6 +186,10 @@ section {
   background: var(--light-bg);
   border: var(--border);
   cursor: pointer;
+}
+
+.services .box-container .box:hover {
+  transform: scale(1.05);
 }
 
 .services .box-container .box img {
@@ -632,12 +636,17 @@ section {
   padding-top: 3rem;
   margin-top: 3rem;
   border-top: .1rem solid var(--light-white);
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--white);
 }
 
 .footer p {
   padding: 1rem 0;
+}
+
+.footer .developer {
+  color: var(--light-white);
+  font-size: 1.5rem !important;
 }
 
 

@@ -56,7 +56,7 @@ function Homepage() {
 
         <div className="content">
             <h3>About Us</h3>
-            <p>Study abroad. Unveil your potentiaL.</p>
+            <p>Study abroad. Unveil your potential.</p>
             <p>We offer free admission support services to students wishing to study abroad.</p>
             <Link to='/about' className="btn">Read More</Link>
         </div>

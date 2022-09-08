@@ -48,7 +48,7 @@ function Footer() {
 
       <div className="copyright">
         Copyright 2022 by ASW. All Rights Reserved.
-        <p>Developer : +234 808 9505 062</p>
+        <p className='developer'>Developer : +234 808 9505 062</p>
       </div>
 
     </section>
